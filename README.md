@@ -10,9 +10,7 @@ The function "mincurve2" allows to derive two subject-specific measures of:
 
 Aβ-aggregations scores were calculated as the difference between the observed and predicted data point (i.e., the standardized Euclidean distance of the observed data point to the fitted line).  A positive score denotes a higher PET CL value than expected for a given value of CSF-Aβ42 (i.e., more aggregated relative to soluble Aβ), whereas a negative score denotes lower CSF-Aβ42 values than expected for a given value of PET CL (i.e., more soluble relative to aggregated Aβ). In turn, Aβ-severity indicates where along the hyperbolic regression line the data point is located (i.e., the standardized Euclidean distance between the individual predicted value and the median of all predicted values). A positive score reflects more advanced Aβ-pathology and a negative score reflects less advanced Aβ-pathology. Figure-1A shows several hypothetical data points and their respective Aβ-aggregation and Aβ-severity scores.
 
-
-
-
+![continuous_imbalance](https://github.com/tincala91/continuousabetaimbalance/assets/74720135/bb651ca4-314f-41b2-8a6e-6b3671b60717)
 
 More details are provided in Mastenbroek, Sala et al., A continuous amyloid-beta CSF/PET imbalance model
 to capture Alzheimer's disease heterogeneity (2024). Neurology.
@@ -35,6 +33,6 @@ $$ CSF =a+ { b*PET \over PET-c} $$
 ## How to acknowledge
 
 The code is provided under GLP-3.0 license. The code was authored by Juan Doming Gispert, BBRC-Foundation Pasqual Maragall (mincurve1; mincurve2) and Arianna Sala, Karolinska Institutet (mincurve2). 
+The code was developed based on an idea of Elena Rodriguez-Vieitez and Arianna Sala (Karolinska Institutet)
 
-Any publication based on this code should cite: Mastenbroek, Sala et al., A continuous amyloid-beta CSF/PET imbalance model
-to capture Alzheimer's disease heterogeneity (2024). Neurology.
+Any publication based on this code should cite: Mastenbroek, Sala et al., A continuous amyloid-beta CSF/PET imbalance model to capture Alzheimer's disease heterogeneity (2024). Neurology.
